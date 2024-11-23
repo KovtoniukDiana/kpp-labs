@@ -1,0 +1,46 @@
+
+footer{
+    height: 400px;
+}
+
+.why-section{
+    margin: 0 auto;
+    width: 67%;
+    text-align: center;
+}
+
+.why-section :nth-child(2) p {
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    color: rgb(104, 114, 121);
+    margin-bottom: 0;
+}
+
+.why-section :nth-child(4) p {
+    font-family: OpenSans-Bold;
+    font-size: 32px;
+    color: rgb(66, 79, 87);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.why-section .iconic-graphic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 2px;
+}
+
+.why-section .copyright p{
+    color: black;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    margin: 0;
+}
+
+.copyright .iconic-graphic .bold-paragraph{
+    font-family: OpenSans-Bold;
+}
+
+
+

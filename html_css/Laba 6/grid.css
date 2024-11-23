@@ -1,0 +1,138 @@
+
+.parallax-2{
+    background-image: url(img/parallax-2.jpeg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-clients{
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    font-family: OpenSans-Bold;
+    color: white;
+    font-size: 25px;
+}
+
+.pop-clients .grid-text{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.pop-clients .grid-text p{
+    margin: 0;
+}
+
+.top-rated {
+    background-color: white;
+    color: rgb(24, 180, 207);
+    font-family: OpenSans-Bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-rated .rated-grid{
+    display: grid;
+    grid-template-columns: repeat(7,14.28%);
+}
+
+.top-rated .rated-grid img{
+    width: 100%;
+}
+
+.hot-news{
+    background-color: white;
+    text-align: center;
+}
+
+.hot-news .title {
+    color: rgb(24, 180, 207);
+    font-family: OpenSans-Bold;
+    font-size: 25px;
+}
+
+.hot-news .news-grid{
+    width: 77%;
+    margin: 0 auto;
+}
+
+.hot-news .news-grid  img{
+    width: 100%;
+    height: 100%;
+}
+
+.hot-news .news-grid .grid-text{
+    margin: auto;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    font-family: OpenSans-Regular;
+ }
+
+ .hot-news .news-grid .grid-text .title-text{
+    text-align: center;
+    font-family: OpenSans-Bold;
+ }
+
+ .hot-news .news-grid p{
+    margin-right: 20px;
+    margin-left: 20px;
+ }
+
+.hot-news .news-grid .text-right{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    overflow: hidden;
+}
+
+ .hot-news .news-grid .text-bottom{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 55% 45%;
+    overflow: hidden;
+}
+
+.hot-news .news-grid .only-title {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    overflow: hidden;
+}
+
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(4,  auto);
+    grid-template-rows: repeat(4,  auto);
+    gap: 20px;
+}
+
+.row1-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.row23-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.row23-2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.row4-2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+

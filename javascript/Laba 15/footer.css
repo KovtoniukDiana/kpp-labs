@@ -1,0 +1,23 @@
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: OpenSans-Regular;
+    margin-top: 70px;
+}
+
+.foot-grid{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    width: 77%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.foot-grid .grid-img{
+    text-align: right;
+}
+
+

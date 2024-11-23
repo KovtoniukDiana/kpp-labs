@@ -1,0 +1,51 @@
+
+.parallax-2{
+    clip-path: polygon(50% 12%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/bg2.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.parallax-2 .wrapper{
+    width: 67%;
+    margin: 0 auto;
+}
+
+ .title{
+    color: rgb(20, 175, 202);
+    font-family: Roboto-Bold;
+    font-size: 60px;
+    margin: 0;
+}
+
+.wrapper .lor-ips{
+    font-family: OpenSans-Bold;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.parallax-2 .companies{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.companies div:nth-child(2) {
+    background-color: #ffffff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+

@@ -1,0 +1,41 @@
+
+.meet-us{
+    margin-top: 30px;
+    height: 550px;
+}
+
+.meet-us .wrapper{
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.meet-us .wrapper .lor-ipsum{
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    color: rgb(104, 114, 121);
+    margin-bottom: 50px;
+}
+
+.meet-us .meet-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 24%);
+    gap: 15%;
+}
+
+.meet-us .meet-grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Roroto-Regular;
+    color: rgb(75, 88, 90);
+}
+
+.meet-us .meet-grid div img{
+    width: 80%;
+    height: 80%;
+}
+
+

@@ -1,0 +1,78 @@
+
+header .parallax-1{
+    clip-path: polygon(50% 100%, 100% 83%, 100% 0, 0 0, 0 83%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/bg1.jpg');
+    height: 470px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    padding-top: 35px;
+}
+
+.top-menu{
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 67%;
+    margin: 0 auto;
+    font-family: OpenSans-Bold;
+}
+
+
+nav .logo{
+    display: flex;
+    font-size: 25px;
+    gap: 1px;
+}
+
+.logo .company{
+    color: rgb(75, 88, 90);
+    font-family: Roboto-Light;
+}
+
+.logo .name-what{
+    color: rgb(20, 175, 202);
+    font-family: Roboto-Black;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li:nth-child(1) a {
+    color: rgb(20, 175, 202);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(75, 88, 90);
+}
+
+nav ul li :hover{
+    color: black;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 53px;
+    height: 350px;
+    font-family: futuraBT-Bold;
+}
+
+

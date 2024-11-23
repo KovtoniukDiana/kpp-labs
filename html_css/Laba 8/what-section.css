@@ -1,0 +1,35 @@
+
+.what-section{
+    margin: 0 auto;
+    width:  67%;
+    height: 400px;
+    display: flex;
+}
+
+ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+ ul li:nth-child(1) p {
+    color: rgb(20, 175, 202);
+    font-family: Roboto-Bold;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.what-section ul li:nth-child(2) p {
+     color: rgb(104, 114, 121);
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+}
+
+.what-section ul li:nth-child(4) p {
+    color: rgb(121, 115, 114);
+    font-family: Roroto-Regular;
+    font-size: 17px;
+}
+
+

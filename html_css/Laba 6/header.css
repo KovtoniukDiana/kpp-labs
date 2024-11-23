@@ -1,0 +1,55 @@
+
+header nav{
+    background-color: rgb(29, 33, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav .logo{
+    display: flex;
+    color: white;
+    gap: 10px;
+    font-family: OpenSans-Bold;
+}
+
+nav .logo .logo-img{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: OpenSans-Regular;
+}
+
+nav .search-i{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+header ul li :hover {
+    color: rgb(24, 180, 207);
+}
+
+header .search-i a :hover{
+    filter: brightness(0) saturate(100%) invert(68%) sepia(28%) saturate(2918%) hue-rotate(141deg) brightness(88%) contrast(82%);
+}
+

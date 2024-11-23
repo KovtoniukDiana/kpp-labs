@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Laba 12</title>
+    <style>
+      .slideshow-container {
+        width: 400px;
+        height: 400px;
+      }
+
+      .images-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .controls {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    
+
+    <div class="images-wrapper ">
+      <img class="slideshow-container" id="first-image" src="./img/1.jpg" alt="slideshow image" />
+    </div>
+
+    <div class="controls">
+      <button id="stop">Зупинити</button>
+      <button id="resume">Продовжити</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

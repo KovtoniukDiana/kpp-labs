@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}    
+
+body button.top-button {
+    position: fixed;
+    top: 75px;
+    left: 93%;
+    display: none;
+}

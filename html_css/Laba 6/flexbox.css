@@ -1,0 +1,92 @@
+
+.parallax-1{
+    background-image: url(img/parallax-1.jpeg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-1 .p-content p{
+    color: white;
+    font-size: 23px;
+    font-family: OpenSans-Regular;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button{
+    border-radius: 2px;
+    border: hidden;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    color: white;
+    font-family: OpenSans-Regular;
+}
+
+.buttons .button-1 button{
+    background-color: rgb(137, 202, 98);
+}
+
+.buttons .button-1 :hover {
+    background-color: rgb(106, 159, 75);
+    transition: 0.5s ease;
+}
+
+.buttons .button-2 button{
+    background-color: rgb(20, 185, 213);
+}
+
+.buttons .button-2 :hover {
+    background-color: rgb(17, 133, 154);
+    transition: 0.5s ease;
+}
+
+.wrapper{
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+}
+
+.wrapper .pop-spot{
+    font-size: 23px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: OpenSans-Bold;
+    color: rgb(24, 180, 207);
+}
+
+.spots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.spots-contaner {
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    font-family: OpenSans-Regular;
+}
+
+.spots-contaner .item-group div{
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    height: auto;
+    margin-top: 20px;
+}
+
+
