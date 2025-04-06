@@ -1,0 +1,47 @@
+
+body {
+    min-height: 500px;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+button {
+    height: fit-content;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 3px solid rgb(164, 51, 93);
+    background-color: pink;
+    color: white;
+}
+
+input {
+    display: none;
+    padding: 5px;
+    border: 2px solid rgb(164, 51, 93);
+    color: rgb(164, 51, 93);
+}
+
+.active {
+    display: block !important;
+}
+
+.circle-container {
+    border: none;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}

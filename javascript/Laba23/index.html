@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Laba23</title>
+</head>
+<body>
+    <i class="fa-solid fa-bomb" style="color: #c34186;"></i>
+    <i class="fa-solid fa-flag" style="color: #c34186;"></i>
+
+
+    <div class="section">
+        <div class="button-section">
+            <div class="wrapper">
+    
+                 <div class="bomb flags">
+                    <span>10</span>
+                    <i class="fa-solid fa-bomb active" style="color: #c34186;"></i>
+                 </div>
+
+                 <div class="bomb flags">
+                    <span> 
+                        <span class="flags-count"></span>
+                        /10
+                    </span>
+
+                    <i class="fa-solid fa-flag active" style="color: #c34186;"></i>
+                 </div>
+
+                 <button class="restart">Почати знову</button>
+                
+            </div>
+        </div>
+    
+        <div class="grid-container">
+    
+            <div class="item background" data-row="0" data-col="0"><span class="number-holder"></span></div>
+            <div class="item" data-row="0" data-col="1"></div>
+            <div class="item background" data-row="0" data-col="2"></div>
+            <div class="item" data-row="0" data-col="3"></div>
+            <div class="item background" data-row="0" data-col="4"></div>
+            <div class="item" data-row="0" data-col="5"></div>
+            <div class="item background" data-row="0" data-col="6"></div>
+            <div class="item" data-row="0" data-col="7"></div>
+
+            <div class="item" data-row="1" data-col="0"></div>
+            <div class="item background" data-row="1" data-col="1"></div>
+            <div class="item" data-row="1" data-col="2"></div>
+            <div class="item background" data-row="1" data-col="3"></div>
+            <div class="item" data-row="1" data-col="4"></div>
+            <div class="item background" data-row="1" data-col="5"></div>
+            <div class="item" data-row="1" data-col="6"></div>
+            <div class="item background" data-row="1" data-col="7"></div>
+    
+            <div class="item background" data-row="2" data-col="0"></div>
+            <div class="item" data-row="2" data-col="1"></div>
+            <div class="item background" data-row="2" data-col="2"></div>
+            <div class="item" data-row="2" data-col="3"></div>
+            <div class="item background" data-row="2" data-col="4"></div>
+            <div class="item" data-row="2" data-col="5"></div>
+            <div class="item background" data-row="2" data-col="6"></div>
+            <div class="item" data-row="2" data-col="7"></div>
+
+            <div class="item" data-row="3" data-col="0"></div>
+            <div class="item background" data-row="3" data-col="1"></div>
+            <div class="item" data-row="3" data-col="2"></div>
+            <div class="item background" data-row="3" data-col="3"></div>
+            <div class="item" data-row="3" data-col="4"></div>
+            <div class="item background" data-row="3" data-col="5"></div>
+            <div class="item" data-row="3" data-col="6"></div>
+            <div class="item background" data-row="3" data-col="7"></div>
+
+
+            <div class="item background" data-row="4" data-col="0"></div>
+            <div class="item" data-row="4" data-col="1"></div>
+            <div class="item background" data-row="4" data-col="2"></div>
+            <div class="item" data-row="4" data-col="3"></div>
+            <div class="item background" data-row="4" data-col="4"></div>
+            <div class="item" data-row="4" data-col="5"></div>
+            <div class="item background" data-row="4" data-col="6"></div>
+            <div class="item" data-row="4" data-col="7"></div>
+
+            <div class="item" data-row="5" data-col="0"></div>
+            <div class="item background" data-row="5" data-col="1"></div>
+            <div class="item" data-row="5" data-col="2"></div>
+            <div class="item background" data-row="5" data-col="3"></div>
+            <div class="item" data-row="5" data-col="4"></div>
+            <div class="item background" data-row="5" data-col="5"></div>
+            <div class="item" data-row="5" data-col="6"></div>
+            <div class="item background" data-row="5" data-col="7"></div>
+    
+            <div class="item background" data-row="6" data-col="0"></div>
+            <div class="item" data-row="6" data-col="1"></div>
+            <div class="item background" data-row="6" data-col="2"></div>
+            <div class="item" data-row="6" data-col="3"></div>
+            <div class="item background" data-row="6" data-col="4"></div>
+            <div class="item" data-row="6" data-col="5"></div>
+            <div class="item background" data-row="6" data-col="6"></div>
+            <div class="item" data-row="6" data-col="7"></div>
+
+            <div class="item" data-row="7" data-col="0"></div>
+            <div class="item background" data-row="7" data-col="1"></div>
+            <div class="item" data-row="7" data-col="2"></div>
+            <div class="item background" data-row="7" data-col="3"></div>
+            <div class="item" data-row="7" data-col="4"></div>
+            <div class="item background" data-row="7" data-col="5"></div>
+            <div class="item" data-row="7" data-col="6"></div>
+            <div class="item background" data-row="7" data-col="7"></div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

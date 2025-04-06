@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+}    
+
+body .modal {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid pink;
+    padding-left: 10px;
+}
+
+body .modal .close-modal {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.closed {
+    display: none !important;
+}
+
+

@@ -1,0 +1,52 @@
+
+body {
+    height: 670px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    gap: 30px;
+}
+
+.image-container {
+    max-width: 40%;
+    height: 40%;
+    overflow: hidden;
+    background-color: pink;
+    gap: 10px;
+    border: 15px solid pink;
+    border-radius: 10px;
+}
+
+.slide-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+}
+
+.controls {
+    font-size: 30px;
+}
+
+@media  screen and (max-width: 425px) {
+    body {
+        height: 300px;
+    }
+
+    .image-container {
+        border: 5px solid pink;
+    }
+
+    .controls {
+        font-size: 20px;
+    }
+}
